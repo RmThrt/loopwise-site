@@ -32,13 +32,14 @@ a:focus-visible{outline:2px solid var(--link);outline-offset:3px;border-radius:2
 .contact{margin-top:40px;padding-top:20px;border-top:1px solid var(--rule)}
 footer{max-width:42rem;margin:0 auto;padding:0 22px 40px;color:var(--mist);font-size:14px}
 .readout a{color:var(--led)}
+.pager{max-width:42rem;margin:0 auto;padding:0 22px 28px;display:flex;justify-content:space-between;gap:12px}.pager a{flex:1;display:flex;flex-direction:column;gap:2px;padding:14px 16px;border:1px solid var(--rule);border-radius:10px;background:var(--plate);color:var(--ink);text-decoration:none}.pager a:hover{border-color:var(--link)}.pager a.next{text-align:right;align-items:flex-end}.pager .dir{font-size:13px;color:var(--mist)}.pager .to{font-weight:700;color:var(--link)}.pager .spacer{flex:1}
 </style>
 </head>
 <body>
 <header><div class="bar"><a class="mark" href="./">LOOPWISE</a><a class="lang" href="assistance.html" hreflang="fr">Français</a></div></header>
 <main>
 <h1>Loopwise support</h1>
-<div class="readout" role="note"><p>Questions, bugs, ideas: <a href="mailto:[rmthrtdeveloper@gmail.com]">[rmthrtdeveloper@gmail.com]</a></p><p>Please include your phone model, its Android or iOS version, and your amp.</p></div>
+<div class="readout" role="note"><p>Questions, bugs, ideas: <a href="mailto:rmthrtdeveloper@gmail.com">rmthrtdeveloper@gmail.com</a></p><p>Please include your phone model, its Android or iOS version, and your amp.</p></div>
 <h2>The app says the amp is not detected</h2>
 <p>Plug the amp into the phone with a USB-C data cable: some cables only charge. The status line under the title turns green when the link works.</p>
 <h2>No sound is recorded</h2>
@@ -54,6 +55,7 @@ footer{max-width:42rem;margin:0 auto;padding:0 22px 40px;color:var(--mist);font-
 <p>Loopwise collects no data. See the <a href="privacy.html">privacy policy</a>.</p>
 </section>
 </main>
+<nav class="pager" aria-label="Pages"><a class="prev" href="privacy.html" rel="prev"><span class="dir">← Previous</span><span class="to">Privacy policy</span></a><span class="spacer"></span></nav>
 <footer>Loopwise, guitar looper for amps that work as a USB-C audio interface.</footer>
 </body>
 </html>
